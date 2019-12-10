@@ -1,0 +1,59 @@
+*ecscript.txt*  An Actin EcScript syntax plugin for Vim
+
+Maintainer: Peter Lustig <https://www.github.com/pl-energid>
+License:    MIT
+Version:    1.0
+
+INTRODUCTION                                                    *ecscript-syntax*
+
+This plugin provides Vim syntax, indent and filetype detection for Actin
+EcScript files.
+
+
+ABOUT                                                            *ecscript-about*
+
+Grab the latest version or report a bug on GitHub:
+
+https://github.com/Energid/vim-ecscript
+
+
+FOLDING                                                         *ecscript-folding*
+
+The ecscript syntax file provides syntax folding (see |:syn-fold|) for
+script blocks.
+
+When 'foldmethod' is set to "syntax" then function script blocks will
+be folded.
+
+PARENTHESES COUNTING                                            *ecscript-parens*
+
+This plugin supports flagging any excess closing parentheses in script
+files as errors.
+
+To enable this feature, add the following line to your .vimrc:
+>
+    :let g:ecs_check_parens = 1
+<
+Note: Parentheses counting might slow down syntax highlighting significantly,
+especially for large files.
+
+DEPRECATED KEYWORDS                                         *ecscript-deprecated*
+
+This plugin also supports flagging deprecated EcScript commands as errors.
+
+This feature is enabled by default. To disable it, add the following line
+to your .vimrc:
+>
+    :let g:ecs_warn_deprecated = 0
+<
+RCF EXTENSIONS                                                     *ecscript-rcf*
+
+EcScript extensions defined by the Robot Control Framework (RCF) library are
+highlighted by default.
+
+To disable this highlighting, add the following line to your .vimrc:
+>
+    :let g:ecs_rcf_extensions = 0
+<
+------------------------------------------------------------------------------
+ vim:ft=help:
