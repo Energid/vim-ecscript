@@ -110,6 +110,10 @@ syn keyword ecsAssert assert assert_approx_eq contained
 
 syn keyword ecsPrint print contained
 
+syn keyword ecsParameter MaxTime StepSize CollisionStepSize CollisionThreshold PathShorteningIterations contained
+syn keyword ecsParameter PathShorteningTolerance SpeedFactor AccelerationFactor Tolerance CachePath contained
+syn keyword ecsParameter CacheSamplingData AttachPlacement AttachExclusion contained
+
 syn keyword ecsBoolean TRUE FALSE contained
 
 syn match ecsNumber "\v<%(0x[0-9a-fA-F]+|-?%(\.\d+|\d+%(\.\d*)?)%([Ee]-?\d+)?%(deg|in|mm?|rad)?)>" contained
@@ -146,6 +150,7 @@ hi def link ecsFunction Identifier
 hi def link ecsCommand Function
 hi def link ecsAssert WarningMsg
 hi def link ecsPrint Special
+hi def link ecsParameter Identifier
 hi def link ecsBoolean Boolean
 hi def link ecsNumber Number
 hi def link ecsString String
