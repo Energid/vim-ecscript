@@ -96,6 +96,7 @@ License
 Version History
 ---------------
 
+* v1.1 (2019-12-18) Added `rrt_plan` and `find_solution` param highlighting; fixed tag file.
 * v1.0 (2019-12-10) Initial release
 
 [1]: https://github.com/tpope/vim-pathogen
