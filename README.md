@@ -73,7 +73,7 @@ License
 
     MIT License
 
-    Copyright (c) 2019 Energid Technologies
+    Copyright (c) 2019-2020 Energid Technologies
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
@@ -96,6 +96,7 @@ License
 Version History
 ---------------
 
+* v1.2 (2020-03-19) Fixed bug allowing `TODO` highlighting outside of comments.
 * v1.1 (2019-12-18) Added `rrt_plan` and `find_solution` param highlighting; fixed tag file.
 * v1.0 (2019-12-10) Initial release
 

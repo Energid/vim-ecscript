@@ -1,7 +1,7 @@
 " Vim syntax file
 " Language:	      EcScript
 " Maintainer:	      Peter Lustig <peter.lustig@energid.com>
-" Version:            1.1
+" Version:            1.2
 " Project Repository: https://github.com/Energid/vim-ecscript
 
 
@@ -123,9 +123,9 @@ syn region ecsString start="\"" skip="\\\"" end="\"" oneline contained
 syn match ecsSpecialChar "\\["\\]" containedin=ecsString
 
 if g:ecs_check_parens
-  syn region ecsStatement start="(" end=")" transparent fold contains=ALLBUT,ecsExcessParen,ecsSpecialChar
+  syn region ecsStatement start="(" end=")" transparent fold contains=ALLBUT,ecsExcessParen,ecsSpecialChar,ecsTodo
 else
-  syn region ecsStatement start="(" end=")" transparent fold contains=ALLBUT,ecsSpecialChar
+  syn region ecsStatement start="(" end=")" transparent fold contains=ALLBUT,ecsSpecialChar,ecsTodo
 endif
 
 if g:ecs_check_parens
