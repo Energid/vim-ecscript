@@ -134,11 +134,11 @@ if g:ecs_check_parens
 endif
 
 if g:ecs_warn_deprecated
-  hi def link ecsCommandDeprecated ecsCommand
-  hi def link ecsFunctionDeprecated ecsFunction
-else
   hi def link ecsCommandDeprecated Todo
   hi def link ecsFunctionDeprecated Todo
+else
+  hi def link ecsCommandDeprecated ecsCommand
+  hi def link ecsFunctionDeprecated ecsFunction
 endif
 
 hi def link ecsTodo Todo
