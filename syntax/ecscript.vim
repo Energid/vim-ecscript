@@ -92,7 +92,6 @@ syn keyword ecsCommand enable_joint_limits disable_joint_limits contained
 syn keyword ecsCommand include_collision exclude_collision include_attach_collision exclude_attach_collision contained
 syn keyword ecsCommand check_collision contained
 syn keyword ecsCommand find_solution contained
-syn keyword ecsCommand pose_seq interp_pos_seq contained
 syn keyword ecsCommand move_pose move_pose_rel contained
 syn keyword ecsCommand move_joint move_joint_mix move_joint_rel contained
 syn keyword ecsCommand move_circular move_linear move_helical move_path contained
@@ -104,6 +103,7 @@ syn keyword ecsCommand set_tcp set_tool_offset contained
 syn keyword ecsCommand speed stop contained
 syn keyword ecsCommand profile_joint profile_pose contained
 
+syn keyword ecsCommandDeprecated pose_seq interp_pos_seq contained
 syn keyword ecsCommandDeprecated set_acd set_apcm set_baf set_bsp contained
 
 syn keyword ecsAssert assert assert_approx_eq contained
