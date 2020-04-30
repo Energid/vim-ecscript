@@ -2,7 +2,7 @@
 
 Maintainer: Peter Lustig <https://www.github.com/pl-energid>
 License:    MIT
-Version:    1.2
+Version:    1.3
 
 INTRODUCTION                                                    *ecscript-syntax*
 
