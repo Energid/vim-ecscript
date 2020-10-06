@@ -63,6 +63,26 @@ To disable this highlighting, add the following line to your .vimrc:
 
     :let g:ecs_rcf_extensions = 0
 
+Actin Extensions
+----------------
+
+EcScript extensions defined by the Actin Extensions library are highlighted
+by default.
+
+To disable this highlighting, add the following line to your .vimrc:
+
+    :let g:ecs_actin_extensions = 0
+
+UR Extensions
+-------------
+
+EcScript extensions defined by the Actin UR library are not highlighted
+by default.
+
+To enable this highlighting, add the following line to your .vimrc:
+
+    :let g:ecs_ur_extensions = 1
+
 Comments and Suggestions
 ------------------------
 
@@ -96,6 +116,8 @@ License
 Version History
 ---------------
 
+* v2.0 (2020-10-06) Updated syntax for Actin 6.0 release.
+* v1.3 (2020-04-30) Tweaked highlighting of deprecated commands.
 * v1.2 (2020-03-19) Fixed bug allowing `TODO` highlighting outside of comments.
 * v1.1 (2019-12-18) Added `rrt_plan` and `find_solution` param highlighting; fixed tag file.
 * v1.0 (2019-12-10) Initial release

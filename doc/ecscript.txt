@@ -2,7 +2,7 @@
 
 Maintainer: Peter Lustig <https://www.github.com/pl-energid>
 License:    MIT
-Version:    1.3
+Version:    2.0
 
 INTRODUCTION                                                    *ecscript-syntax*
 
@@ -54,6 +54,24 @@ highlighted by default.
 To disable this highlighting, add the following line to your .vimrc:
 >
     :let g:ecs_rcf_extensions = 0
+<
+ACTIN EXTENSIONS                                                   *ecscript-ext*
+
+EcScript extensions defined by the Actin Extensions library are highlighted
+by default.
+
+To disable this highlighting, add the following line to your .vimrc:
+>
+    :let g:ecs_actin_extensions = 0
+<
+UR EXTENSIONS                                                       *ecscript-ur*
+
+EcScript extensions defined by the Actin UR library are not highlighted
+by default.
+
+To enable this highlighting, add the following line to your .vimrc:
+>
+    :let g:ecs_ur_extensions = 1
 <
 ------------------------------------------------------------------------------
  vim:ft=help:

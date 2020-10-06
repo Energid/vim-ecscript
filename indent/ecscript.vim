@@ -1,7 +1,7 @@
 " Vim indent file
 " Language:	      EcScript
 " Maintainer:	      Peter Lustig <peter.lustig@energid.com>
-" Version:            1.3
+" Version:            2.0
 " Project Repository: https://github.com/Energid/vim-ecscript
 
 

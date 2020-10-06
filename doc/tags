@@ -1,7 +1,9 @@
 ecscript-about	ecscript.txt	/*ecscript-about*
 ecscript-deprecated	ecscript.txt	/*ecscript-deprecated*
+ecscript-ext	ecscript.txt	/*ecscript-ext*
 ecscript-folding	ecscript.txt	/*ecscript-folding*
 ecscript-parens	ecscript.txt	/*ecscript-parens*
 ecscript-rcf	ecscript.txt	/*ecscript-rcf*
 ecscript-syntax	ecscript.txt	/*ecscript-syntax*
+ecscript-ur	ecscript.txt	/*ecscript-ur*
 ecscript.txt	ecscript.txt	/*ecscript.txt*
