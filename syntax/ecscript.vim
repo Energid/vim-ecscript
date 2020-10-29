@@ -1,7 +1,7 @@
 " Vim syntax file
 " Language:	      EcScript
 " Maintainer:	      Peter Lustig <peter.lustig@energid.com>
-" Version:            2.0
+" Version:            2.1
 " Project Repository: https://github.com/Energid/vim-ecscript
 
 
@@ -148,6 +148,7 @@ if g:ecs_rcf_extensions
   syn keyword ecsPrint print_log contained
 endif
 
+syn keyword ecsParameter BORDER CNA contained
 syn keyword ecsParameter AccelerationFactor contained
 syn keyword ecsParameter AssertTolerance contained
 syn keyword ecsParameter CacheCost CacheNumWaypoints CacheThreshold contained
@@ -179,8 +180,8 @@ syn keyword ecsBoolean TRUE FALSE contained
 
 syn keyword ecsBooleanDeprecated true false contained
 
-syn match ecsNumber "\v<%(0x[0-9a-fA-F]+|-?%(\.\d+|\d+%(\.\d*)?)%([Ee]-?\d+)?%(deg|in|mm?|rad)?)>" contained
-syn keyword ecsNumber BASE contained
+syn match ecsNumber "\v<%(0x[0-9a-fA-F]+)>|%(-|<)%(%(\.\d+|\d+%(\.\d*)?)%([Ee]-?\d+)?%(deg|g|in|kg|mm?|rad)?)>" contained
+syn keyword ecsNumber BASE INF contained
 
 syn region ecsString start="\"" skip="\\\"" end="\"" oneline contained
 syn match ecsSpecialChar "\\["\\]" containedin=ecsString

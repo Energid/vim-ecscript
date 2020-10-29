@@ -116,6 +116,7 @@ License
 Version History
 ---------------
 
+* v2.1 (2020-10-29) Added highlighting for `INF`, `BORDER`, `CNA` tokens and 'g', 'kg' units.
 * v2.0 (2020-10-06) Updated syntax for Actin 6.0 release.
 * v1.3 (2020-04-30) Tweaked highlighting of deprecated commands.
 * v1.2 (2020-03-19) Fixed bug allowing `TODO` highlighting outside of comments.
